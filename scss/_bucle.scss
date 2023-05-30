@@ -1,0 +1,17 @@
+//through llega hasta el ultimo numero
+// to llega hasta el numero anterior 
+//$i variable de iteraccion - lugar donde voy a estar pasando en tanto el bucle
+
+
+@for $i  from 2 through 6{
+    .circle-#{$i}{
+        width: $i * 5.5px;
+        height: $i * 5.5px;
+        background-image: linear-gradient(to top, rgb(55, 207, 200), rgb(16, 97, 190));
+        padding: 2rem;
+        border: 2px solid blueviolet;
+        border-radius: 50%;
+    }
+
+
+}
